@@ -13,7 +13,7 @@ app.use(cors());
 // MongoDB connection (hardcoded URI)
 mongoose
   .connect(
-    'mongodb+srv://allankiplagatkipkemei_db_user:YqqyzsmBVuuGxcq1@cluster0.qshthor.mongodb.net/',
+  ("mongodb+srv://allankiplagatkipkemei_db_user:YqqyzsmBVuuGxcq1@cluster0.qshthor.mongodb.net/"),
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
